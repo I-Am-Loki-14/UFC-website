@@ -1,0 +1,25 @@
+@media (max-width: 969px) {
+  .nav-links {
+    display: none;
+  }
+  .menubar {
+    display: block !important;
+    cursor: pointer;
+  }
+  .media-nav-links {
+    display: block;
+    width: 100%;
+    background-color: #999;
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-weight: 600;
+    left: 0;
+    transform-origin: top right;
+    transform: scale(1);
+    transition: 0.5s;
+  }
+  .show {
+    transform: scale(1);
+  }
+}
