@@ -9,17 +9,28 @@
   .media-nav-links {
     display: block;
     width: 100%;
-    background-color: #999;
+    background-color: #212529;
     position: absolute;
     top: 80px;
     text-align: center;
     font-weight: 600;
     left: 0;
-    transform-origin: top right;
-    transform: scale(1);
-    transition: 0.5s;
+    transform-origin: top left;
+    transform: scale(0);
+    transition: 0.3s;
+    padding: 1rem 0;
+  }
+  .media-nav-links a {
+    color: #fff !important;
+    padding: 0.5rem 0;
   }
   .show {
     transform: scale(1);
+  }
+  .card-container {
+    margin: 0 !important;
+  }
+  .card-content {
+    width: 100% !important;
   }
 }
