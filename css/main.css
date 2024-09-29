@@ -26,3 +26,10 @@
 .media-nav-links {
   display: none;
 }
+.shoe-section {
+  width: 100%;
+  height: 80vh;
+  background: url(../img/Training-shoe.jpg) no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}

@@ -33,4 +33,10 @@
   .card-content {
     width: 100% !important;
   }
+  .shoe-container {
+    width: 100% !important;
+  }
+  .btns {
+    width: 40% !important;
+  }
 }
