@@ -54,3 +54,9 @@ body {
 .cards {
   flex: 1 1 15rem;
 }
+.events-upcoming {
+  width: 100%;
+}
+.upcoming-card {
+  flex: 1 1 10rem;
+}

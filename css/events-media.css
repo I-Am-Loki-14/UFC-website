@@ -1,0 +1,8 @@
+@media (max-width: 969px) {
+  .events-cards {
+    width: 100% !important;
+  }
+  .events-upcoming-container {
+    display: flex;
+  }
+}
