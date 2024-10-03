@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Moderustic", system-ui;
+}
+.athletes {
+  width: 100%;
+}
+.athletes-card {
+  height: 180px;
+  flex: 1 1 20rem;
+}
+.athletes-card-img {
+  background-color: red;
+  width: 60%;
+  background: url(../img/athletes-1.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
